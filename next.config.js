@@ -9,10 +9,12 @@ config = {
       fs: 'empty'
     }
 
-    config.module.rules.push({
-      test: /\.md$/,
-      loader: path.resolve(__dirname, './lib/markdown-loader.js')
-    });
+    config.module.rules.push(
+      {
+        test: /\.md$/,
+        loader: path.resolve(__dirname, './lib/markdown-loader.js')
+      }
+    );
 
     return config
   }

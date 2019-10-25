@@ -40,6 +40,10 @@
     max-width: 100%;
     transition: all 0.4s ease;
   }
+  .ant-modal-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .header {
     background: #3a393e;
     width: 100%;
@@ -143,39 +147,20 @@
   .OF-A {
     overflow: auto;
   }
-  .paiyou-index-card {
+  .gradient-background-anim {
+    min-height: 100vh;
+    color: #fff;
+    background: linear-gradient(-135deg, #227752, #333C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    color: #333c7e;
+    animation: Gradient 20s ease infinite;
+  }
+  .entas-card {
     margin: auto;
     box-shadow: 0px 0px 10px rgb(220, 220, 220);
     height: 310px;
     width: 280px;
     padding: 20px 20px 20px 20px;
-    &:hover {
-      transform: scale(1.1);
-      transition: all 0.5s ease 0s;
-      filter: grayscale(0%) brightness(100%) contrast(100%);
-    }
-  }
-  .underline {
-    position: relative;
-    text-decoration: none;
-    color: currentColor;
-  }
-  .underline::after {
-    content: '';
-    position: absolute;
-    top: 70%;
-    background-color: currentColor;
-    transform: scale(0);
-    transition:all .35s;
-  }
-  .underline::after {
-    width: 100%;
-    height: 1px;
-    left: 0;
-  }
-  .underline:hover::after {
-    transform: scale(1);
-    transform-origin: left;
   }
   .label {
     font-weight: bold;
@@ -230,10 +215,6 @@
   .nav li a:focus {
     text-decoration: none;
     background-color: transparent;
-  }
-  .menu-sticky .inner-nav > ul > li > a {
-    color: black;
-    line-height: 90px !important;
   }
   .nav .open a:focus,
   .nav .open a:hover {
@@ -299,7 +280,7 @@
   }
   .menu-transparent {
     background-color: transparent !important;
-    position: fixed !important;
+    position: absolute !important;
     box-shadow: none !important;
     border-bottom: 0px !important;
     transition: all 0.4s ease;
@@ -308,6 +289,14 @@
     }
     .dropdown {
       color: white;
+    }
+    .brand-logo .entas-logo {
+      display: inline-block;
+      background: url(/static/imgs/entas-logo.png);
+      background-position: center;
+      background-size: cover;
+      height: 50px;
+      width: 50px;
     }
   }
   .custom-collapse .dropdown>a:hover>i {
@@ -342,24 +331,6 @@
       .navbar-toggle i:hover {
         color: #ccc;
       }
-    }
-  }
-  .menu-sticky {
-    position: fixed !important;
-    left: 0px;
-    right: 0px;
-    top: 0;
-    .navbar-brandname {
-      color: black;
-      &:hover {
-        color: #ccc;
-      }
-    }
-    .dropdown {
-      color: black;
-    }
-    .navbar-toggle {
-      height: 75px !important;
     }
   }
   .nav .mega-menu {
@@ -423,67 +394,55 @@
       }
     }
   }
-  .paiyou-container {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  .paiyou-index-title {
-    position: absolute;
-    left: 38%;
-    right: 38%;
+  .entas-title {
+    padding-top: 20vh;
+    z-index: 1000;
     text-align: center;
-    top: 18%;
     color: white;
-    font-size: 28px;
+    font-size: 48px;
     letter-spacing: 5px;
     font-family: Arial-Black, sans-serif;
     @media (max-width: 768px) {
-      top: 60%;
-      left: 10%;
-      right: 10%;
+      top: 30%;
     }
   }
-  .paiyou-index-gif {
-    width: 60%;
+  .entas-gif {
+    width: 100%;
     position: absolute;
-    left: 20%;
-    right: 20%;
-    top: 15%;
+    top: 35%;
     @media (max-width: 768px) {
-      width: 90%;
-      left: 5%;
-      right: 5%;
+     display: none; 
     }
   }
-  .paiyou-index-img {
+  .entas-img {
     width: 80%;
     position: absolute;
     left: 10%;
     right: 10%;
     top: 15%;
   }
-  .paiyou-index-table {
+  .entas-table {
     width: 38%;
     margin-top: 12%;
   }
-  .paiyou-index-anim {
+  .entas-anim {
     position: absolute;
     z-index: 3;
     width: 8%;
   }
-  .paiyou-index-pc {
+  .entas-pc {
     left: 57.3%;
     top: 42.5%;
   }
-  .paiyou-index-tool {
+  .entas-tool {
     left: 37%;
     top: 36%;
   }
-  .paiyou-index-box {
+  .entas-box {
     left: 41.7%;
     top: 74.3%;
   }
-  .paiyou-index-text {
+  .entas-text {
     margin-top: 40px;
     text-align: center;
     margin-bottom: 10px;
@@ -491,7 +450,7 @@
     letter-spacing: 5px;
     color: #111111;
   }
-  .paiyou-index-text {
+  .entas-text {
     margin-top: 40px;
     text-align: center;
     margin-bottom: 10px;
@@ -499,100 +458,15 @@
     letter-spacing: 5px;
     color: #111111;
   }
-  .paiyou-index-label {
+  .entas-label {
     margin-bottom: 40px;
     text-align: center;
     font-family: PingFangSC-Regular, sans-serif;
     letter-spacing: 2px;
     color: #111111;
   }
-  .paiyou-recruit-title {
-    position: absolute;
-    left: 33%;
-    right: 33%;
-    top: 18%;
-    color: white;
-    font-size: 28px;
-    letter-spacing: 8px;
-    font-family: PingFangSC-Regular, sans-serif;
-  }
-  .paiyou-recruit-icon {
-    height: 50px;
-  }
-
-  .paiyou-contact-text {
-    text-align: center;
-    font-size: 16px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-family: PingFangSC-Regular, sans-serif;
-    color: #111111;
-    letter-spacing: 5px;
-  }
-  .paiyou-contact-row {
-    width: 600px;
-    height: 400px;
-    box-shadow: #c9ccd5 0px 0px 20px;
-    margin: 30px;
-    max-width: 100%;
-    margin-top: 40px;
-    left: 5%;
-    margin-left: 80px;
-  }
-  .paiyou-contact-info {
-    display: inline-block;
-    position: absolute;
-    font-size: 16px;
-    right: 10%;
-    margin-top: 5%;
-  }
-  .paiyou-recruit-job {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    text-align: center;
-    font-family: PingFangSC-Regular, sans-serif;
-    letter-spacing: 5px;
-    color: #111111;
-  }
-  .paiyou-recruit-info {
-    margin-bottom: 40px;
-    text-align: center;
-    font-family: PingFangSC-Regular, sans-serif;
-    letter-spacing: 2px;
-    color: #111111;
-  }
-  .paiyou-recruit-header {
-    background: url('/static/imgs/recruit.png') no-repeat;
-  }
-  .paiyou-contact-header {
-    background: url('/static/imgs/contact-us.png') no-repeat;
-  }
-  .paiyou-aboutus-header {
-    background: url('/static/imgs/about-us.png') no-repeat;
-  }
-  .paiyou-contact-header,
-  .paiyou-aboutus-header,
-  .paiyou-recruit-header {
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    height: 60vh;
-    max-height: 100vh;
-    position: relative;
-  }
-  .brand-logo .logo-paiyou {
-    display: inline-block;
-    background: url('/static/imgs/paiyou-logo.png') no-repeat;
-    background-size: cover;
-    height: 50px;
-    width: 50px;
-    margin-top: 20px;
-    margin-left: 15px;
-    @media (max-width: 768px) {
-      height: 30px;
-      width: 30px;
-    }
+  .ant-modal-content {
+    background: rgba(0, 0, 0, 0.7);
   }
   .collapse-style {
     .ant-collapse-header > i {
@@ -600,36 +474,6 @@
     }
   }
   @media (max-width: 768px) {
-    .paiyou-contact-info {
-      margin-right: auto;
-      margin-left: auto;
-      position: relative;
-      right: 0;
-    }
-    .paiyou-recruit-header {
-      background: url('/static/imgs/recruit-m.png') no-repeat;
-    }
-    .paiyou-contact-header {
-      background: url('/static/imgs/contactus-m.png') no-repeat;
-    }
-    .paiyou-aboutus-header {
-      background: url('/static/imgs/aboutus-m.png') no-repeat;
-    }
-    .paiyou-contact-header,
-    .paiyou-aboutus-header,
-    .paiyou-recruit-header {
-      background-size: cover;
-      background-position: center;
-      max-width: 100%;
-      height: 40vh;
-      max-height: 100vh;
-      display: block;
-      position: relative;
-    }
-    .paiyou-recruit-title,
-    .paiyou-recruit-icon {
-      display: none;
-    }
     .collapse-style {
       .ant-collapse-header > i {
         padding-left: 88%;
@@ -637,18 +481,6 @@
     }
   }
   @media (max-width: 1199px) {
-    .paiyou-contact-row {
-      width: 100%;
-      left: 0;
-      margin: 0;
-      margin-top: 40px;
-    }
-    .paiyou-contact-info {
-      margin-right: 20%;
-      margin-left: 20%;
-      position: relative;
-      right: 0;
-    }
     .collapse-style {
       .ant-collapse-header > i {
         padding-left: 91%;
@@ -664,3 +496,14 @@
   }
 }
 
+@keyframes :global(Gradient) {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
