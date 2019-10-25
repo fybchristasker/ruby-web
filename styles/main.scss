@@ -1,0 +1,666 @@
+:global {
+  @import 'base';
+  * {
+   margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+  }
+  body {
+    min-width: 320px;
+    background: #fff;
+  }
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .brand-logo img {
+    height: 90px;
+    max-width: 100%;
+    transition: all 0.4s ease;
+  }
+  .header {
+    background: #3a393e;
+    width: 100%;
+    height: 45px;
+    font-size: 14px;
+  }
+  .main {
+    width: 100%;
+    height: auto;
+  }
+  .pf-l {
+    font-family: PingFangSC-Ultralight, sans-serif;
+  }
+  .pf-r {
+    font-family: PingFangSC-Regular, sans-serif;
+  }
+  .pf-m {
+    font-family: PingFangSC-Medium, sans-serif;
+  }
+  .P-A {
+    position: absolute;
+  }
+  .D-IB {
+    display: inline-block;
+  }
+  .D-B {
+    display: block;
+  }
+  .D-I {
+    display: inline;
+  }
+  .D-N {
+    display: none !important;
+  }
+  .F-N {
+    float: none !important;
+  }
+  .TA-C {
+    text-align: center !important;
+  }
+  .TA-L {
+    text-align: left !important;
+  }
+  .TA-R {
+    text-align: right !important;
+  }
+  .F-L {
+    float: left !important;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .C-P {
+    cursor: pointer;
+  }
+  .full-h {
+    height: 100% !important;
+  }
+  .full-w {
+    width: 100% !important;
+  }
+  .W-100 {
+    width: 100vw !important;
+  }
+  .H-100 {
+    height: 100vh !important;
+  }
+  .MH-100 {
+    max-height: 100vh !important;
+  }
+  .V-C-C { // vertical center container
+    transform-style: preserve-3d;
+    .V-C-E { // vertical center element
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .align-center{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .align-left{
+    text-align: left;
+  }
+  .align-right {
+    text-align: right;
+  }
+  .P-F {
+    position: fixed;
+  }
+  .F-R {
+    float: right !important;
+  }
+  .borderNone {
+    border: none;
+  }
+  .bg-white {
+    background-color: #fff;
+  }
+  .OF-A {
+    overflow: auto;
+  }
+  .paiyou-index-card {
+    margin: auto;
+    box-shadow: 0px 0px 10px rgb(220, 220, 220);
+    height: 310px;
+    width: 280px;
+    padding: 20px 20px 20px 20px;
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.5s ease 0s;
+      filter: grayscale(0%) brightness(100%) contrast(100%);
+    }
+  }
+  .underline {
+    position: relative;
+    text-decoration: none;
+    color: currentColor;
+  }
+  .underline::after {
+    content: '';
+    position: absolute;
+    top: 70%;
+    background-color: currentColor;
+    transform: scale(0);
+    transition:all .35s;
+  }
+  .underline::after {
+    width: 100%;
+    height: 1px;
+    left: 0;
+  }
+  .underline:hover::after {
+    transform: scale(1);
+    transform-origin: left;
+  }
+  .label {
+    font-weight: bold;
+  }
+  @include number-classes;
+  .navbar-nav > li {
+    float: left;
+  }
+  .nav > li {
+    position: relative;
+    display: block;
+  }
+  .menu-sticky .brand-logo img {
+    height: 90px !important;
+  }
+  .footer-bottom a {
+    color: #fff;
+  }
+  .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+  }
+  .inner-nav > ul > li > a {
+    color: white;
+    outline: none;
+    padding: 0px 15px;
+    line-height: 90px;
+    display: block;
+  }
+  .main-nav .menu-light .navbar-toggle i {
+    transition: all 0.4s ease-in-out;
+  }
+  .footer-bottom {
+    color: #a1a1a1;
+    background-color: rgba(13, 10, 55, 1);
+    padding: 20px 20px;
+    font-size: 14px;
+  }
+  .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .navbar {
+    margin-bottom: 0px;
+    border: 0px;
+    font-weight: 300;
+  }
+  .nav .open a,
+  .nav li a:hover,
+  .nav li a:focus {
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .menu-sticky .inner-nav > ul > li > a {
+    color: black;
+    line-height: 90px !important;
+  }
+  .nav .open a:focus,
+  .nav .open a:hover {
+    background-color: transparent
+  }
+  .main-nav .menu-light .inner-nav > ul > li > a {
+    transition: all 0.4s ease-in-out;
+  }
+  .navbar-header {
+    float: right;
+  }
+  /*===============================
+  ==========  5.1 Logo  ==========
+   *===============================*/
+  .brand-logo {
+    float: left;
+    line-height: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .display-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-brand {
+    padding: 0px;
+    float: left;
+    height: 50px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 15px;
+  }
+  .navbar-brandname {
+    color: white;
+  }
+  .navbar-brandname:hover {
+    color: #ccc;
+  }
+  @media (min-width: 768px) {
+    .navbar-toggle {
+      display: none;
+    }
+  }
+  @media (max-width: 465px) {
+    .disp {
+      display: none;
+    }
+  }
+  .navbar-toggle {
+    position: relative;
+    float: right;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+    button {
+      height: 100%;
+      background-color: transparent;
+      border: 0;
+    }
+  }
+  .menu-transparent {
+    background-color: transparent !important;
+    position: fixed !important;
+    box-shadow: none !important;
+    border-bottom: 0px !important;
+    transition: all 0.4s ease;
+    &.push-top {
+      margin-top: 30px;
+    }
+    .dropdown {
+      color: white;
+    }
+  }
+  .custom-collapse .dropdown>a:hover>i {
+    opacity: 1;
+  }
+  .main-nav {
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 0px;
+    position: relative;
+    width: 100%;
+    height: 90px;
+    text-align: left;
+    z-index: 101;
+    transition: all 0.4s ease-in-out;
+    .inner-nav {
+      float: right;
+    }
+    &.js-transparent {
+      transition: all 0.27s cubic-bezier(0, 0, 0.58, 1);
+    }
+    &.op-nav.menu-light .inner-nav > ul > li.active > a {
+      color: #ccc;
+    }
+    &.menu-light {
+      background-color: #fff;
+      border-bottom: 1px solid #e9e9e9;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.03);
+      .inner-nav > ul > li > a:hover > a:focus {
+        color: #ccc;
+      }
+      .navbar-toggle i:hover {
+        color: #ccc;
+      }
+    }
+  }
+  .menu-sticky {
+    position: fixed !important;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    .navbar-brandname {
+      color: black;
+      &:hover {
+        color: #ccc;
+      }
+    }
+    .dropdown {
+      color: black;
+    }
+    .navbar-toggle {
+      height: 75px !important;
+    }
+  }
+  .nav .mega-menu {
+    position: relative;
+  }
+  @media (max-width: 1199px) {
+    /* Bootstrap Collapsing Breakpoint*/
+    .navbar-header {
+      float: none;
+    }
+    .navbar-toggle {
+      display: block;
+    }
+    .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-collapse.collapse {
+      display: none!important;
+      overflow-y: auto !important;
+      overflow-x: hidden !important;
+    }
+    .navbar-nav {
+      float: none!important;
+      margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+      float: none;
+    }
+    .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .navbar-text {
+      float: none;
+      margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in {
+      display: block!important;
+    }
+    .collapsing {
+      overflow: hidden!important;
+    }
+    .footer-headline {
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 40px;
+    }
+  }
+  @media (min-width: 991px) {
+    .footer-headline {
+      margin-bottom: 5px;
+      font-size: 16px;
+      line-height: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .collapse-style {
+      .ant-collapse-header > i {
+        padding-left: 85%;
+      }
+    }
+  }
+  .paiyou-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .paiyou-index-title {
+    position: absolute;
+    left: 38%;
+    right: 38%;
+    text-align: center;
+    top: 18%;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-family: Arial-Black, sans-serif;
+    @media (max-width: 768px) {
+      top: 60%;
+      left: 10%;
+      right: 10%;
+    }
+  }
+  .paiyou-index-gif {
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 15%;
+    @media (max-width: 768px) {
+      width: 90%;
+      left: 5%;
+      right: 5%;
+    }
+  }
+  .paiyou-index-img {
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 15%;
+  }
+  .paiyou-index-table {
+    width: 38%;
+    margin-top: 12%;
+  }
+  .paiyou-index-anim {
+    position: absolute;
+    z-index: 3;
+    width: 8%;
+  }
+  .paiyou-index-pc {
+    left: 57.3%;
+    top: 42.5%;
+  }
+  .paiyou-index-tool {
+    left: 37%;
+    top: 36%;
+  }
+  .paiyou-index-box {
+    left: 41.7%;
+    top: 74.3%;
+  }
+  .paiyou-index-text {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: PingFangSC-Regular, sans-serif;
+    letter-spacing: 5px;
+    color: #111111;
+  }
+  .paiyou-index-text {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: PingFangSC-Regular, sans-serif;
+    letter-spacing: 5px;
+    color: #111111;
+  }
+  .paiyou-index-label {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: PingFangSC-Regular, sans-serif;
+    letter-spacing: 2px;
+    color: #111111;
+  }
+  .paiyou-recruit-title {
+    position: absolute;
+    left: 33%;
+    right: 33%;
+    top: 18%;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 8px;
+    font-family: PingFangSC-Regular, sans-serif;
+  }
+  .paiyou-recruit-icon {
+    height: 50px;
+  }
+
+  .paiyou-contact-text {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: PingFangSC-Regular, sans-serif;
+    color: #111111;
+    letter-spacing: 5px;
+  }
+  .paiyou-contact-row {
+    width: 600px;
+    height: 400px;
+    box-shadow: #c9ccd5 0px 0px 20px;
+    margin: 30px;
+    max-width: 100%;
+    margin-top: 40px;
+    left: 5%;
+    margin-left: 80px;
+  }
+  .paiyou-contact-info {
+    display: inline-block;
+    position: absolute;
+    font-size: 16px;
+    right: 10%;
+    margin-top: 5%;
+  }
+  .paiyou-recruit-job {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-family: PingFangSC-Regular, sans-serif;
+    letter-spacing: 5px;
+    color: #111111;
+  }
+  .paiyou-recruit-info {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: PingFangSC-Regular, sans-serif;
+    letter-spacing: 2px;
+    color: #111111;
+  }
+  .paiyou-recruit-header {
+    background: url('/static/imgs/recruit.png') no-repeat;
+  }
+  .paiyou-contact-header {
+    background: url('/static/imgs/contact-us.png') no-repeat;
+  }
+  .paiyou-aboutus-header {
+    background: url('/static/imgs/about-us.png') no-repeat;
+  }
+  .paiyou-contact-header,
+  .paiyou-aboutus-header,
+  .paiyou-recruit-header {
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 60vh;
+    max-height: 100vh;
+    position: relative;
+  }
+  .brand-logo .logo-paiyou {
+    display: inline-block;
+    background: url('/static/imgs/paiyou-logo.png') no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 15px;
+    @media (max-width: 768px) {
+      height: 30px;
+      width: 30px;
+    }
+  }
+  .collapse-style {
+    .ant-collapse-header > i {
+      padding-left: 96%;
+    }
+  }
+  @media (max-width: 768px) {
+    .paiyou-contact-info {
+      margin-right: auto;
+      margin-left: auto;
+      position: relative;
+      right: 0;
+    }
+    .paiyou-recruit-header {
+      background: url('/static/imgs/recruit-m.png') no-repeat;
+    }
+    .paiyou-contact-header {
+      background: url('/static/imgs/contactus-m.png') no-repeat;
+    }
+    .paiyou-aboutus-header {
+      background: url('/static/imgs/aboutus-m.png') no-repeat;
+    }
+    .paiyou-contact-header,
+    .paiyou-aboutus-header,
+    .paiyou-recruit-header {
+      background-size: cover;
+      background-position: center;
+      max-width: 100%;
+      height: 40vh;
+      max-height: 100vh;
+      display: block;
+      position: relative;
+    }
+    .paiyou-recruit-title,
+    .paiyou-recruit-icon {
+      display: none;
+    }
+    .collapse-style {
+      .ant-collapse-header > i {
+        padding-left: 88%;
+      }
+    }
+  }
+  @media (max-width: 1199px) {
+    .paiyou-contact-row {
+      width: 100%;
+      left: 0;
+      margin: 0;
+      margin-top: 40px;
+    }
+    .paiyou-contact-info {
+      margin-right: 20%;
+      margin-left: 20%;
+      position: relative;
+      right: 0;
+    }
+    .collapse-style {
+      .ant-collapse-header > i {
+        padding-left: 91%;
+      }
+    }
+  }
+  @media (max-width: 550px) {
+    .collapse-style {
+      .ant-collapse-header > i {
+        padding-left: 83%;
+      }
+    }
+  }
+}
+
