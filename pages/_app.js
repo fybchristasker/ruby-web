@@ -10,7 +10,6 @@ class MyApp extends App {
     const { Component, pageProps } = this.props
     return <div>
       <Head />
-      <Nav />
       <Component {...pageProps} />
     </div>
   }
