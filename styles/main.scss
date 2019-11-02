@@ -69,18 +69,6 @@
   .D-IB {
     display: inline-block;
   }
-  .D-B {
-    display: block;
-  }
-  .D-I {
-    display: inline;
-  }
-  .D-N {
-    display: none !important;
-  }
-  .F-N {
-    float: none !important;
-  }
   .TA-C {
     text-align: center !important;
   }
@@ -102,26 +90,6 @@
   .full-h {
     height: 100% !important;
   }
-  .full-w {
-    width: 100% !important;
-  }
-  .W-100 {
-    width: 100vw !important;
-  }
-  .H-100 {
-    height: 100vh !important;
-  }
-  .MH-100 {
-    max-height: 100vh !important;
-  }
-  .V-C-C { // vertical center container
-    transform-style: preserve-3d;
-    .V-C-E { // vertical center element
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  }
   .align-center{
     margin: 0 auto;
     text-align: center;
@@ -138,15 +106,6 @@
   .F-R {
     float: right !important;
   }
-  .borderNone {
-    border: none;
-  }
-  .bg-white {
-    background-color: #fff;
-  }
-  .OF-A {
-    overflow: auto;
-  }
   .gradient-background-anim {
     min-height: 100vh;
     color: #fff;
@@ -154,13 +113,6 @@
     background-size: 400% 400%;
     color: #333c7e;
     animation: Gradient 20s ease infinite;
-  }
-  .entas-card {
-    margin: auto;
-    box-shadow: 0px 0px 10px rgb(220, 220, 220);
-    height: 310px;
-    width: 280px;
-    padding: 20px 20px 20px 20px;
   }
   .label {
     font-weight: bold;
@@ -256,11 +208,6 @@
   }
   @media (min-width: 768px) {
     .navbar-toggle {
-      display: none;
-    }
-  }
-  @media (max-width: 465px) {
-    .disp {
       display: none;
     }
   }
@@ -371,9 +318,6 @@
     .navbar-collapse.collapse.in {
       display: block!important;
     }
-    .collapsing {
-      overflow: hidden!important;
-    }
     .footer-headline {
       margin-bottom: 15px;
       font-size: 16px;
@@ -385,13 +329,6 @@
       margin-bottom: 5px;
       font-size: 16px;
       line-height: 40px;
-    }
-  }
-  @media (max-width: 768px) {
-    .collapse-style {
-      .ant-collapse-header > i {
-        padding-left: 85%;
-      }
     }
   }
   .index-title {
@@ -406,93 +343,8 @@
       top: 30%;
     }
   }
-  .entas-gif {
-    width: 100%;
-    position: absolute;
-    top: 35%;
-    @media (max-width: 768px) {
-     display: none; 
-    }
-  }
-  .entas-img {
-    width: 80%;
-    position: absolute;
-    left: 10%;
-    right: 10%;
-    top: 15%;
-  }
-  .entas-table {
-    width: 38%;
-    margin-top: 12%;
-  }
-  .entas-anim {
-    position: absolute;
-    z-index: 3;
-    width: 8%;
-  }
-  .entas-pc {
-    left: 57.3%;
-    top: 42.5%;
-  }
-  .entas-tool {
-    left: 37%;
-    top: 36%;
-  }
-  .entas-box {
-    left: 41.7%;
-    top: 74.3%;
-  }
-  .entas-text {
-    margin-top: 40px;
-    text-align: center;
-    margin-bottom: 10px;
-    font-family: PingFangSC-Regular, sans-serif;
-    letter-spacing: 5px;
-    color: #111111;
-  }
-  .entas-text {
-    margin-top: 40px;
-    text-align: center;
-    margin-bottom: 10px;
-    font-family: PingFangSC-Regular, sans-serif;
-    letter-spacing: 5px;
-    color: #111111;
-  }
-  .entas-label {
-    margin-bottom: 40px;
-    text-align: center;
-    font-family: PingFangSC-Regular, sans-serif;
-    letter-spacing: 2px;
-    color: #111111;
-  }
   .ant-modal-content {
     background: rgba(0, 0, 0, 0.7);
-  }
-  .collapse-style {
-    .ant-collapse-header > i {
-      padding-left: 96%;
-    }
-  }
-  @media (max-width: 768px) {
-    .collapse-style {
-      .ant-collapse-header > i {
-        padding-left: 88%;
-      }
-    }
-  }
-  @media (max-width: 1199px) {
-    .collapse-style {
-      .ant-collapse-header > i {
-        padding-left: 91%;
-      }
-    }
-  }
-  @media (max-width: 550px) {
-    .collapse-style {
-      .ant-collapse-header > i {
-        padding-left: 83%;
-      }
-    }
   }
 }
 
