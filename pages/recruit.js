@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon, Rate, Carousel, Card, Row, Col } from 'antd'
 
-const IndexPage = () => {
+const Recruit = () => {
   return (
     <div style={{ minHeight: '100vh' }}>
       <div style={{ background: '#999' }}>
@@ -44,6 +44,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
-
-
+export default Recruit
