@@ -1,5 +1,5 @@
 :global {
-  @import 'base';
+  @import 'mixins.scss';
   * {
    margin: 0;
     box-sizing: border-box;
@@ -31,18 +31,10 @@
       width: 1170px;
     }
   }
-  .row {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
   .brand-logo img {
     height: 90px;
     max-width: 100%;
     transition: all 0.4s ease;
-  }
-  .ant-modal-body {
-    padding-left: 0;
-    padding-right: 0;
   }
   .header {
     background: #3a393e;
@@ -114,9 +106,6 @@
     color: #333c7e;
     animation: Gradient 20s ease infinite;
   }
-  .label {
-    font-weight: bold;
-  }
   @include number-classes;
   .navbar-nav > li {
     float: left;
@@ -127,9 +116,6 @@
   }
   .menu-sticky .brand-logo img {
     height: 90px !important;
-  }
-  .footer-bottom a {
-    color: #fff;
   }
   .nav > li > a {
     position: relative;
@@ -145,12 +131,6 @@
   }
   .main-nav .menu-light .navbar-toggle i {
     transition: all 0.4s ease-in-out;
-  }
-  .footer-bottom {
-    color: #a1a1a1;
-    background-color: rgba(13, 10, 55, 1);
-    padding: 20px 20px;
-    font-size: 14px;
   }
   .nav {
     padding-left: 0;
@@ -318,18 +298,6 @@
     .navbar-collapse.collapse.in {
       display: block!important;
     }
-    .footer-headline {
-      margin-bottom: 15px;
-      font-size: 16px;
-      line-height: 40px;
-    }
-  }
-  @media (min-width: 991px) {
-    .footer-headline {
-      margin-bottom: 5px;
-      font-size: 16px;
-      line-height: 40px;
-    }
   }
   .index-title {
     padding-top: 40vh;
@@ -342,9 +310,6 @@
     @media (max-width: 768px) {
       top: 30%;
     }
-  }
-  .ant-modal-content {
-    background: rgba(0, 0, 0, 0.7);
   }
 }
 
