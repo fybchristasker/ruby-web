@@ -1,11 +1,7 @@
-const path = require('path')
-const withCSS = require('@zeit/next-css')
-const withSass = require('@zeit/next-sass')
-
-config = {
+const nextConfig = {
   webpack: config => {
     return config
   }
 }
 
-module.exports = withSass(withCSS(config))
+module.exports = nextConfig
