@@ -16,7 +16,6 @@ module.exports = {
       'babel-plugin-import',
       {
         libraryName: '@material-ui/core',
-        // Use "'libraryDirectory': ''," if your bundler does not support ES modules
         libraryDirectory: '',
         camel2DashComponentName: false
       },
@@ -26,7 +25,6 @@ module.exports = {
       'babel-plugin-import',
       {
         libraryName: '@material-ui/icons',
-        // Use "'libraryDirectory': ''," if your bundler does not support ES modules
         libraryDirectory: '',
         camel2DashComponentName: false
       },

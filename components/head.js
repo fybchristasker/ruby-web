@@ -10,7 +10,7 @@ const Head = () => (
     <meta name="keywords" content="龅牙梨花珍" />
     <meta name="description" content="龅牙梨花珍" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
-    <link rel="icon" href="/static/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
   </NextHead>
 )
 
