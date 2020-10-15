@@ -1,20 +1,4 @@
 module.exports = {
-  globals: {
-    CONFIG: true,
-    DISPATCH: true,
-    NODE_ENV: true,
-    PROJECT_NAME: true,
-    QINIU_HOST: true,
-    REMOTE_HOSTS: true,
-    ROOT_NODE: true,
-    STATE: true,
-    STORE: true,
-    WECHAT_ENABLED: true,
-    wx: true,
-    Raven: true,
-    particlesJS: true,
-    isDebug: true
-  },
   env: {
     browser: true,
     es6: true,
