@@ -6,6 +6,9 @@ module.exports = {
         targets: {
           browsers: ['IE >= 9']
         },
+        'styled-jsx': {
+          plugins: ['styled-jsx-plugin-postcss']
+        },
         useBuiltIns: 'usage'
       }
     ]
