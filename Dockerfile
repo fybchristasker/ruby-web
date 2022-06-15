@@ -9,7 +9,7 @@ EXPOSE 80
 WORKDIR /usr/src/app
 COPY package.json .
 COPY yarn.lock .
-RUN yarn
+RUN npm install 
 COPY . .
-RUN yarn run build
+RUN npm run build
 CMD [ "yarn", "start", "-p", "80" ]
