@@ -1,20 +1,23 @@
-const withProgressBar = require('next-progressbar')
 const withPlugins = require('next-compose-plugins')
+const withProgressBar = require('next-progressbar')
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/,
+})
 
-const nextPlugins = [withProgressBar]
-const nextConfig = {
-  webpack: config => {
-    return config
+module.exports = withPlugins([
+  withProgressBar,
+  [
+    withMDX,
+    {
+      pageExtensions: ['js', 'jsx', 'mdx'],
+    },
+  ],
+  {
+    images: {
+      loader: 'custom',
+    },
+    experimental: {
+      outputStandalone: true,
+    },
   },
-  async redirects() {
-    return [
-      {
-        source: '/index',
-        destination: '/',
-        permanent: true
-      }
-    ]
-  }
-}
-
-module.exports = withPlugins(nextPlugins, nextConfig)
+])

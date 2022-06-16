@@ -1,4 +1,4 @@
-name: build
+name: deploy
 on: 
   push:
     branches: [ "master" ]
@@ -6,7 +6,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  check-bats-version:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3

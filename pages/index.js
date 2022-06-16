@@ -1,14 +1,15 @@
 import React from 'react'
-import { Button } from '@material-ui/core'
+import { Button } from '@mui/material'
 
 const IndexPage = () => {
   return (
-    <div style={{ width: '100%', height: '100vh', zIndex: '-1' }}>
-      <div className="index-title">龅 牙 梨 花 珍</div>
-      <div style={{ marginTop: '10vh', textAlign: 'center' }}>
-        <Button color="primary" variant="outlined">
-          WELCOME
-        </Button>
+    <div className="w-full h-screen bg-blue-300">
+      <div className="flex items-center justify-center h-screen">
+        <div className="text-center mt-6">
+          <Button color="primary" variant="contained">
+            Welcome
+          </Button>
+        </div>
       </div>
     </div>
   )

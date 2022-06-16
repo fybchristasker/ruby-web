@@ -1,27 +1,24 @@
 import React from 'react'
-import App from 'next/app'
-import { ThemeProvider } from '@material-ui/core/styles'
-import localStorage from 'localStorage'
-import { darkTheme, lightTheme } from 'components/theme'
-import { Box } from '@material-ui/core'
-import Head from 'components/head'
+import { CacheProvider } from '@emotion/react'
+import { ThemeProvider } from '@mui/material/styles'
+import Head from '../components/head'
+import '../styles/tailwind.css'
+import { lightTheme } from '../components/theme'
+import { createEmotionCache } from '../utils/index'
 
-class MyApp extends App {
-  render() {
-    const { Component, pageProps } = this.props
-    return (
-      <div>
-        <Head />
-        <ThemeProvider theme={localStorage.getItem('THEME') === 'light' ? lightTheme : darkTheme}>
-          <Box bgcolor="background.paper" color="text.primary">
-            <div style={{ minHeight: '100vh' }}>
-              <Component {...pageProps} />
-            </div>
-          </Box>
-        </ThemeProvider>
-      </div>
-    )
-  }
+const clientSideEmotionCache = createEmotionCache()
+
+const MyApp = (props) => {
+  const { Component, emotionCache = clientSideEmotionCache, pageProps } = props
+
+  return (
+    <CacheProvider value={emotionCache}>
+      <Head />
+      <ThemeProvider theme={lightTheme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </CacheProvider>
+  )
 }
 
 export default MyApp
