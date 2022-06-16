@@ -5,7 +5,6 @@ import localStorage from 'localStorage'
 import { darkTheme, lightTheme } from 'components/theme'
 import { Box } from '@material-ui/core'
 import Head from 'components/head'
-import 'styles/main.scss'
 
 class MyApp extends App {
   render() {
