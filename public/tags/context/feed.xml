@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>金阙玉书</title>
+      <link>https://fybchristasker.vercel.app/blog</link>
+      <description>金阙玉书</description>
+      <language>zh-cn</language>
+      <managingEditor>fybchristasker@gmail.com (fybchristasker)</managingEditor>
+      <webMaster>fybchristasker@gmail.com (fybchristasker)</webMaster>
+      <lastBuildDate>Fri, 22 Jul 2022 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://fybchristasker.vercel.app/tags/context/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://fybchristasker.vercel.app/blog/context-with-immer</guid>
+    <title>基于React Context的全局状态管理</title>
+    <link>https://fybchristasker.vercel.app/blog/context-with-immer</link>
+    <description>使用 immer 作为 React Hooks来操作状态的钩子，好处就是轻便、简洁，适合小型项目使用</description>
+    <pubDate>Fri, 22 Jul 2022 00:00:00 GMT</pubDate>
+    <author>fybchristasker@gmail.com (fybchristasker)</author>
+    <category>react</category><category>immer</category><category>context</category>
+  </item>
+
+    </channel>
+  </rss>

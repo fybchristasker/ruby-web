@@ -1,19 +1,15 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'fybchristasker',
+    description: `一个自带的项目`,
+    imgSrc: '/static/images/avatar.jpeg',
+    href: 'https://github.com/fybchristasker/fybchristasker',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'React Media Previewer',
+    description: `目的是打造一个能够兼容各种媒体文件的预览器，该项目使用 React 和 Typescript 开发，为了能够一键查看像图片、音频、视频等文件，我们创造了它。`,
+    imgSrc: '/static/images/react-media-previewer.png',
+    href: 'https://github.com/ruilisi/react-media-previewer',
   },
 ]
 

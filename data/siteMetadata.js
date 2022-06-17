@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: 'fyb的博客',
+  title: '金阙玉书',
   author: 'fybchristasker',
-  headerTitle: 'fyb的博客',
-  description: 'fyb的博客',
+  headerTitle: '金阙玉书',
+  description: '金阙玉书',
   language: 'zh-cn',
   theme: 'system', // system, dark or light
   siteUrl: 'https://fybchristasker.vercel.app',

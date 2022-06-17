@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>金阙玉书</title>
+      <link>https://fybchristasker.vercel.app/blog</link>
+      <description>金阙玉书</description>
+      <language>zh-cn</language>
+      <managingEditor>fybchristasker@gmail.com (fybchristasker)</managingEditor>
+      <webMaster>fybchristasker@gmail.com (fybchristasker)</webMaster>
+      <lastBuildDate>Wed, 18 May 2022 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://fybchristasker.vercel.app/tags/emotion/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://fybchristasker.vercel.app/blog/next-js-with-mui</guid>
+    <title>在Next.js中使用Mui</title>
+    <link>https://fybchristasker.vercel.app/blog/next-js-with-mui</link>
+    <description>使用 Next.js 框架。它包括@mui/material 及其对等依赖项，包括emotion，MUI v5 中的默认样式引擎。</description>
+    <pubDate>Wed, 18 May 2022 00:00:00 GMT</pubDate>
+    <author>fybchristasker@gmail.com (fybchristasker)</author>
+    <category>next.js</category><category>mui</category><category>emotion</category>
+  </item>
+
+    </channel>
+  </rss>

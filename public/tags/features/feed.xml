@@ -1,9 +1,9 @@
 
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-      <title>fyb的博客</title>
+      <title>金阙玉书</title>
       <link>https://fybchristasker.vercel.app/blog</link>
-      <description>fyb的博客</description>
+      <description>金阙玉书</description>
       <language>zh-cn</language>
       <managingEditor>fybchristasker@gmail.com (fybchristasker)</managingEditor>
       <webMaster>fybchristasker@gmail.com (fybchristasker)</webMaster>
