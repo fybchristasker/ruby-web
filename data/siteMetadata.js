@@ -7,7 +7,7 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://fybchristasker.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
+  siteLogo: '/static/favicons/logo.png',
   image: '/static/images/avatar.jpeg',
   socialBanner: '/static/images/twitter-card.png',
   email: 'fybchristasker@gmail.com',

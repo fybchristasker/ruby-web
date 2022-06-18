@@ -3,7 +3,7 @@ title: 在Next.js中使用Mui
 date: '2022-05-18'
 tags: ['next.js', 'mui', 'emotion']
 draft: false
-summary: 使用 Next.js 框架。它包括@mui/material 及其对等依赖项，包括emotion，MUI v5 中的默认样式引擎。
+summary: 使用 Next.js 框架。它包括 @mui/material 及其对等依赖项，包括 emotion，MUI v5 中的默认样式引擎。
 ---
 
 ### 安装依赖

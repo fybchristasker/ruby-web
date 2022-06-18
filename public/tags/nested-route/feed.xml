@@ -14,7 +14,7 @@
     <guid>https://fybchristasker.vercel.app/blog/nested-route/nested-routing</guid>
     <title>Next.js嵌套路由</title>
     <link>https://fybchristasker.vercel.app/blog/nested-route/nested-routing</link>
-    <description>博客模板支持嵌套子文件夹中的文章。这可用于对类似内容的帖子进行分组，例如一个多部分的课程。这篇文章本身就是一个嵌套路由的例子。</description>
+    <description>博客模板支持嵌套子文件夹中的文章。这可用于对类似内容的文章进行分组，例如一个多部分的课程。这篇文章本身就是一个嵌套路由的例子。</description>
     <pubDate>Mon, 02 May 2022 00:00:00 GMT</pubDate>
     <author>fybchristasker@gmail.com (fybchristasker)</author>
     <category>next.js</category><category>nested-route</category>
