@@ -1,9 +1,9 @@
 ---
 title: 基于React Context的全局状态管理
-date: '2022-07-22'
+date: '2022-07-02'
 tags: ['react', 'immer', 'context']
 draft: false
-summary: '使用 immer 作为 React Hooks来操作状态的钩子，好处就是轻便、简洁，适合小型项目使用'
+summary: '使用 immer 作为 React Hooks 来操作状态的钩子，好处就是轻便、简洁，适合小型项目使用'
 ---
 
 ### 状态管理器
@@ -73,7 +73,7 @@ export default function Index() {
   return (
     <>
       <button onClick={() => viewSet('blogs', blog)}></button>
-      {blogs.map(v => (
+      {view.blogs.map(v => (
         <>
           <div>{v.name}</div>
           <div>{v.content}</div>

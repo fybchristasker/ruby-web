@@ -11,11 +11,11 @@ github: https://github.com/fybchristasker
 
 ### Hi, 我是 fybchristasker
 
-是一个独立开发者 x 产品分析师，目前就职于苏州瑞立思科技有限公司，担任前端工程师，擅长可视化搭建解决方案。
+目前就职于苏州瑞立思科技有限公司，是一名前端工程师。
 
-### 技术栈
+### 推荐好物
 
-[React](https://reactjs.org) 世界流行的 JavaScript 框架
+[React](https://reactjs.org) 用于构建用户界面的 JavaScript 库
 
 [Next.js](https://nextjs.org) 用于生产的 React 框架
 
@@ -29,9 +29,7 @@ github: https://github.com/fybchristasker
 
 [Egg.js](https://www.eggjs.org) 企业级 Node.js 开发框架
 
-### 工作流
-
-[Github](https://github.com) 数千万人使用的开源软件社区
+[Github](https://github.com) 世人开发使用软件的地方
 
 [Vercel](https://vercel.com) 免费发布静态站点的平台
 
@@ -39,8 +37,8 @@ github: https://github.com/fybchristasker
 
 [PS](https://www.adobe.com/cn/products/photoshop.html) 无所不能的图片处理软件
 
-### 开源
+### 我的开源
 
 [react-media-previewer](https://github.com/ruilisi/react-media-previewer)
 
-[react-chessground](https://github.com/ruilisi/react-chessground)（参与者）
+[react-chessground](https://github.com/ruilisi/react-chessground)（参与）

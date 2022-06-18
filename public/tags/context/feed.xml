@@ -7,15 +7,25 @@
       <language>zh-cn</language>
       <managingEditor>fybchristasker@gmail.com (fybchristasker)</managingEditor>
       <webMaster>fybchristasker@gmail.com (fybchristasker)</webMaster>
-      <lastBuildDate>Fri, 22 Jul 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 02 Jul 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://fybchristasker.vercel.app/tags/context/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
     <guid>https://fybchristasker.vercel.app/blog/context-with-immer</guid>
     <title>基于React Context的全局状态管理</title>
     <link>https://fybchristasker.vercel.app/blog/context-with-immer</link>
-    <description>使用 immer 作为 React Hooks来操作状态的钩子，好处就是轻便、简洁，适合小型项目使用</description>
-    <pubDate>Fri, 22 Jul 2022 00:00:00 GMT</pubDate>
+    <description>使用 immer 作为 React Hooks 来操作状态的钩子，好处就是轻便、简洁，适合小型项目使用</description>
+    <pubDate>Sat, 02 Jul 2022 00:00:00 GMT</pubDate>
+    <author>fybchristasker@gmail.com (fybchristasker)</author>
+    <category>react</category><category>immer</category><category>context</category>
+  </item>
+
+  <item>
+    <guid>https://fybchristasker.vercel.app/blog/ui-design philosophy</guid>
+    <title>前端写UI的一些设计原则</title>
+    <link>https://fybchristasker.vercel.app/blog/ui-design philosophy</link>
+    <description>在业务中遵循统一的设计原则，可以显着增加开发团队的确定性，避免过度设计，保持系统一致性，让设计师专注于最需要的地方。</description>
+    <pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate>
     <author>fybchristasker@gmail.com (fybchristasker)</author>
     <category>react</category><category>immer</category><category>context</category>
   </item>

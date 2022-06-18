@@ -14,7 +14,7 @@
     <guid>https://fybchristasker.vercel.app/blog/next-js-with-mui</guid>
     <title>在Next.js中使用Mui</title>
     <link>https://fybchristasker.vercel.app/blog/next-js-with-mui</link>
-    <description>使用 Next.js 框架。它包括@mui/material 及其对等依赖项，包括emotion，MUI v5 中的默认样式引擎。</description>
+    <description>使用 Next.js 框架。它包括 @mui/material 及其对等依赖项，包括 emotion，MUI v5 中的默认样式引擎。</description>
     <pubDate>Wed, 18 May 2022 00:00:00 GMT</pubDate>
     <author>fybchristasker@gmail.com (fybchristasker)</author>
     <category>next.js</category><category>mui</category><category>emotion</category>
