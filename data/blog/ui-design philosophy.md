@@ -1,7 +1,7 @@
 ---
 title: 前端写UI的一些设计原则
 date: '2022-06-22'
-tags: ['react', 'immer', 'context']
+tags: ['ui', 'design', 'css']
 draft: false
 summary: '在业务中遵循统一的设计原则，可以显着增加开发团队的确定性，避免过度设计，保持系统一致性，让设计师专注于最需要的地方。'
 ---

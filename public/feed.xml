@@ -37,13 +37,23 @@
     <description>在业务中遵循统一的设计原则，可以显着增加开发团队的确定性，避免过度设计，保持系统一致性，让设计师专注于最需要的地方。</description>
     <pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate>
     <author>fybchristasker@gmail.com (fybchristasker)</author>
-    <category>react</category><category>immer</category><category>context</category>
+    <category>ui</category><category>design</category><category>css</category>
   </item>
 
   <item>
-    <guid>https://fybchristasker.vercel.app/blog/next-js-with-mui</guid>
+    <guid>https://fybchristasker.vercel.app/blog/nextjs-speed-up</guid>
+    <title>Next.js构建体积优化及启动速度提升</title>
+    <link>https://fybchristasker.vercel.app/blog/nextjs-speed-up</link>
+    <description>项目构建体积大小影响网站性能，有效优化构建体积能够使网站更流畅</description>
+    <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
+    <author>fybchristasker@gmail.com (fybchristasker)</author>
+    <category>next.js</category><category>bundle</category><category>preact</category>
+  </item>
+
+  <item>
+    <guid>https://fybchristasker.vercel.app/blog/nextjs-with-mui</guid>
     <title>在Next.js中使用Mui</title>
-    <link>https://fybchristasker.vercel.app/blog/next-js-with-mui</link>
+    <link>https://fybchristasker.vercel.app/blog/nextjs-with-mui</link>
     <description>使用 Next.js 框架。它包括 @mui/material 及其对等依赖项，包括 emotion，MUI v5 中的默认样式引擎。</description>
     <pubDate>Wed, 18 May 2022 00:00:00 GMT</pubDate>
     <author>fybchristasker@gmail.com (fybchristasker)</author>
