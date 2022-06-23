@@ -9,9 +9,7 @@ github: https://github.com/fybchristasker
 
 ## 我的四分之一人生
 
-### Hi, 我是 fybchristasker
-
-目前就职于苏州瑞立思科技有限公司，是一名前端工程师。
+我是 fybchristasker，是一名前端工程师。
 
 ### 推荐好物
 

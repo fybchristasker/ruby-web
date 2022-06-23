@@ -1,4 +1,5 @@
 import fs from 'fs'
+import Giscus from '@giscus/react'
 import PageTitle from '@/components/PageTitle'
 import generateRss from '@/lib/generate-rss'
 import { MDXLayoutRenderer } from '@/components/MDXComponents'
@@ -65,6 +66,21 @@ export default function Blog({ post, authorDetails, prev, next }) {
           </PageTitle>
         </div>
       )}
+      <Giscus
+        id="comments"
+        repo="fybchristasker/ruby-web"
+        repoId="MDEwOlJlcG9zaXRvcnkyMTc0MjcwMjE="
+        category="Announcements"
+        categoryId="DIC_kwDODPWsTc4CP1nO"
+        mapping="pathname"
+        term="Welcome to @giscus/react component!"
+        reactionsEnabled="1"
+        emitMetadata="0"
+        inputPosition="top"
+        theme="light"
+        lang="en"
+        loading="lazy"
+      />
     </>
   )
 }
