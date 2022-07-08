@@ -7,13 +7,23 @@
       <language>zh-cn</language>
       <managingEditor>fybchristasker@gmail.com (fybchristasker)</managingEditor>
       <webMaster>fybchristasker@gmail.com (fybchristasker)</webMaster>
-      <lastBuildDate>Wed, 18 May 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 21 Jun 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://fybchristasker.vercel.app/tags/nextjs/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://fybchristasker.vercel.app/blog/next-js-with-mui</guid>
+    <guid>https://fybchristasker.vercel.app/blog/nextjs-speed-up</guid>
+    <title>Next.js构建体积优化及启动速度提升</title>
+    <link>https://fybchristasker.vercel.app/blog/nextjs-speed-up</link>
+    <description>项目构建体积大小影响网站性能，有效优化构建体积能够使网站更流畅</description>
+    <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
+    <author>fybchristasker@gmail.com (fybchristasker)</author>
+    <category>next.js</category><category>bundle</category><category>preact</category>
+  </item>
+
+  <item>
+    <guid>https://fybchristasker.vercel.app/blog/nextjs-with-mui</guid>
     <title>在Next.js中使用Mui</title>
-    <link>https://fybchristasker.vercel.app/blog/next-js-with-mui</link>
+    <link>https://fybchristasker.vercel.app/blog/nextjs-with-mui</link>
     <description>使用 Next.js 框架。它包括 @mui/material 及其对等依赖项，包括 emotion，MUI v5 中的默认样式引擎。</description>
     <pubDate>Wed, 18 May 2022 00:00:00 GMT</pubDate>
     <author>fybchristasker@gmail.com (fybchristasker)</author>

@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>金阙玉书</title>
+      <link>https://fybchristasker.vercel.app/blog</link>
+      <description>金阙玉书</description>
+      <language>zh-cn</language>
+      <managingEditor>fybchristasker@gmail.com (fybchristasker)</managingEditor>
+      <webMaster>fybchristasker@gmail.com (fybchristasker)</webMaster>
+      <lastBuildDate>Tue, 21 Jun 2022 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://fybchristasker.vercel.app/tags/bundle/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://fybchristasker.vercel.app/blog/nextjs-speed-up</guid>
+    <title>Next.js构建体积优化及启动速度提升</title>
+    <link>https://fybchristasker.vercel.app/blog/nextjs-speed-up</link>
+    <description>项目构建体积大小影响网站性能，有效优化构建体积能够使网站更流畅</description>
+    <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
+    <author>fybchristasker@gmail.com (fybchristasker)</author>
+    <category>next.js</category><category>bundle</category><category>preact</category>
+  </item>
+
+    </channel>
+  </rss>

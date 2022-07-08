@@ -21,6 +21,16 @@
   </item>
 
   <item>
+    <guid>https://fybchristasker.vercel.app/blog/multi-tailwind-import</guid>
+    <title>安装包和主项目都引入了tailwind出现问题的处理</title>
+    <link>https://fybchristasker.vercel.app/blog/multi-tailwind-import</link>
+    <description>如果安装包中引入了tailwind，而且主项目中也引入了tailwind，那么有可能会造成样式的混乱和冲突。</description>
+    <pubDate>Fri, 08 Jul 2022 00:00:00 GMT</pubDate>
+    <author>fybchristasker@gmail.com (fybchristasker)</author>
+    <category>tailwind</category><category>css</category><category>react</category>
+  </item>
+
+  <item>
     <guid>https://fybchristasker.vercel.app/blog/context-with-immer</guid>
     <title>基于React Context的全局状态管理</title>
     <link>https://fybchristasker.vercel.app/blog/context-with-immer</link>

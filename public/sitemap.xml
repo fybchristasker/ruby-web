@@ -29,7 +29,15 @@
   </url>
 
   <url>
-    <loc>https://fybchristasker.vercel.app/blog/next-js-with-mui</loc>
+    <loc>https://fybchristasker.vercel.app/blog/multi-tailwind-import</loc>
+  </url>
+
+  <url>
+    <loc>https://fybchristasker.vercel.app/blog/nextjs-speed-up</loc>
+  </url>
+
+  <url>
+    <loc>https://fybchristasker.vercel.app/blog/nextjs-with-mui</loc>
   </url>
 
   <url>
@@ -45,11 +53,15 @@
   </url>
 
   <url>
+    <loc>https://fybchristasker.vercel.app/tags/bundle</loc>
+  </url>
+
+  <url>
     <loc>https://fybchristasker.vercel.app/tags/canada</loc>
   </url>
 
   <url>
-    <loc>https://fybchristasker.vercel.app/tags/context</loc>
+    <loc>https://fybchristasker.vercel.app/tags/config</loc>
   </url>
 
   <url>
@@ -57,11 +69,19 @@
   </url>
 
   <url>
-    <loc>https://fybchristasker.vercel.app/tags/emotion</loc>
+    <loc>https://fybchristasker.vercel.app/tags/context</loc>
   </url>
 
   <url>
-    <loc>https://fybchristasker.vercel.app/tags/features</loc>
+    <loc>https://fybchristasker.vercel.app/tags/css</loc>
+  </url>
+
+  <url>
+    <loc>https://fybchristasker.vercel.app/tags/design</loc>
+  </url>
+
+  <url>
+    <loc>https://fybchristasker.vercel.app/tags/emotion</loc>
   </url>
 
   <url>
@@ -69,11 +89,15 @@
   </url>
 
   <url>
-    <loc>https://fybchristasker.vercel.app/tags/github</loc>
+    <loc>https://fybchristasker.vercel.app/tags/features</loc>
   </url>
 
   <url>
     <loc>https://fybchristasker.vercel.app/tags/guide</loc>
+  </url>
+
+  <url>
+    <loc>https://fybchristasker.vercel.app/tags/github</loc>
   </url>
 
   <url>
@@ -121,7 +145,7 @@
   </url>
 
   <url>
-    <loc>https://fybchristasker.vercel.app/tags/react</loc>
+    <loc>https://fybchristasker.vercel.app/tags/preact</loc>
   </url>
 
   <url>
@@ -129,7 +153,15 @@
   </url>
 
   <url>
+    <loc>https://fybchristasker.vercel.app/tags/react</loc>
+  </url>
+
+  <url>
     <loc>https://fybchristasker.vercel.app/tags/tailwind</loc>
+  </url>
+
+  <url>
+    <loc>https://fybchristasker.vercel.app/tags/ui</loc>
   </url>
 
   <url>
